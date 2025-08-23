@@ -8,11 +8,11 @@ public class Cancha{
     private int idCancha;
     private String tipoCancha;
     private int capacidadMaxima;
-    private float costoXhora;
+    private Double costoXhora;
     private List<SolicitudReserva> reservasAsignadas;
 
 
-    public Cancha(int idCancha, String tipoCancha, int capacidadMaxima, float costoXhora){
+    public Cancha(int idCancha, String tipoCancha, int capacidadMaxima, Double costoXhora){
         this.idCancha = idCancha;
         this.tipoCancha = tipoCancha;
         this.capacidadMaxima = capacidadMaxima;
@@ -33,7 +33,7 @@ public class Cancha{
         return capacidadMaxima;
     }
 
-    public float getCostoXhora(){
+    public Double getCostoXhora(){
         return costoXhora;
     }
 
